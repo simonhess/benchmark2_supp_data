@@ -44,12 +44,14 @@ public class Configurations {
 			ConsumptionFirm.cashFlowRateWeight=0.0;
 			ConsumptionFirm.currentExpMechanism = ConsumptionFirm.expMechanisms.JMAB1;
 			ConsumptionFirm.currentPricingMechanism = ConsumptionFirm.pricingMechanisms.JMAB2;
+			Main.switchingRate = 0.5;
 			break;
 		case EXP_DEBUGGING_JMAB1_V_1:
 			ConsumptionFirm.capacityWeight=0.0;
 			ConsumptionFirm.cashFlowRateWeight=0.0;
 			ConsumptionFirm.currentExpMechanism = ConsumptionFirm.expMechanisms.JMAB1;
 			ConsumptionFirm.currentPricingMechanism = ConsumptionFirm.pricingMechanisms.JMAB2;
+			ConsumptionFirm.invRatio = 1.0;
 			break;
 		case EXP_DEBUGGING_JMAB2:
 			ConsumptionFirm.capacityWeight=0.0;
