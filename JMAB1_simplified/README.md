@@ -25,3 +25,9 @@ MACRO_INVESTMENT_EXPERIMENT_JMAB1\
 MACRO_INVESTMENT_EXPERIMENT_JMAB2
 
 The Configurations.java file in the /src folder contains the exact model parameters for each experiment.
+
+## Reproduce the plots in the JMAB 2.0 paper
+
+To reproduce the plots contained in the JMAB 2.0 paper first run the project in Eclipse once for each experiment.
+
+After that run the GeneratePlots.R file in R studio. The plots will be created and saved in the /figures folder.
