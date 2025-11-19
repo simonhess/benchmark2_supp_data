@@ -258,7 +258,7 @@ public class Main {
 		
 		// CSV
 		
-		String folderName = "data/";
+		String folderName = "data/"+args[0]+"_";
 		
         try{
             FileWriter file = new FileWriter(folderName+"avMarkup.csv");
