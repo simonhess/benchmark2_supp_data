@@ -111,7 +111,7 @@ public class Configurations {
 			ConsumptionFirm.currentInvestmentMechanism = ConsumptionFirm.investmentMechanisms.JMAB1;
 			ConsumptionFirm.currentExpMechanism = ConsumptionFirm.expMechanisms.JMAB2;
 			ConsumptionFirm.currentPricingMechanism = ConsumptionFirm.pricingMechanisms.JMAB2;
-			Main.cSize = 2;
+			Main.cSize = 1;
             Main.investmentShockOneFirm = true;
 			break;
 		case MACRO_INVESTMENT_EXPERIMENT_JMAB2:
@@ -121,7 +121,7 @@ public class Configurations {
 			ConsumptionFirm.currentInvestmentMechanism = ConsumptionFirm.investmentMechanisms.JMAB2;
 			ConsumptionFirm.currentExpMechanism = ConsumptionFirm.expMechanisms.JMAB2;
 			ConsumptionFirm.currentPricingMechanism = ConsumptionFirm.pricingMechanisms.JMAB2;
-			Main.cSize = 2;
+			Main.cSize = 1;
 			Main.investmentShockOneFirm = true;
 			break;
 		}
